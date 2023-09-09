@@ -5,12 +5,15 @@
  */
 int main(void)
 {
-	for (int num = 48; num <= 57; num++)
+	int num;
+	int hi;
+
+	for (num = 48; num <= 57; num++)
 	{
 		putchar(num);
 	}
 
-	for (int hi = 97; hi <= 102; hi++)
+	for (hi = 97; hi <= 102; hi++)
 	{
 		putchar(hi);
 	}
